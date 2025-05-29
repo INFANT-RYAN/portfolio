@@ -9,9 +9,9 @@ export default function App() {
       <Navbar></Navbar>
       <Hero></Hero>
       <div className="flex justify-center gap-4 p-20">
-        <Project name="hello" img={bot}></Project>
-        <Project name="hello" img={bot}></Project>
-        <Project name="hello" img={bot}></Project>
+        <Project name="hello" ></Project>
+        <Project name="hello"></Project>
+        <Project name="hello" ></Project>
       </div>
     </div>
   );

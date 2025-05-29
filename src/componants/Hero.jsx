@@ -3,6 +3,9 @@ import ClickSpark from "./ClickSpark";
 
 
 export default function Hero() {
+    function clocked(){
+        alert("clicked")
+    }
   return (
     <div className="bg-gray-900 h-screen  flex justify-center items-center">
       <div className=" text-white w-[60%] leading-10">
@@ -19,7 +22,7 @@ export default function Hero() {
           duration={800}
         >
           <div className="flex gap-5 mt-5">
-            <button className="bg-fuchsia-700 p-2 rounded-xl font-semibold">
+            <button onClick={clocked} className="bg-fuchsia-700 p-2 rounded-xl font-semibold">
               {" "}
               View My Profile{" "}
             </button>

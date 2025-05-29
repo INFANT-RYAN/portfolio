@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <div className="bg-gray-900 h-screen  flex justify-center items-center">
       <div className=" text-white w-[60%] leading-10">
-        <h1 className="text-6xl font-extrabold py-4">hello, I'm Infant Ryan J</h1>
+        <h1 className="md:text-6xl text-4xl font-extrabold py-4">hello, I'm Infant Ryan J</h1>
         <p className="text-2xl">
           an aspiring web developer and recent graduate with a love for
           learning, building, and creating impactful solutions
